@@ -32,27 +32,26 @@
 >
 > `$ make <name of the program, no .cpp>`
 
-## Formatting:
-
-> `$ make format`
-
 ## Cleaning:
-
+> This will remove all binary and object files from the repositories
+>
 > `$ make clean`
 
-## TheBasics:
+## Files and Directories:
+
+### TheBasics:
 
 > * **Makefile**
 > * **hello.c**
 
-## InputAndOutput
+### InputAndOutput
 
 > Empty
 
-## DataAndAlgorithms
+### DataAndAlgorithms
 
 > Empty
 
-## BroadeningTheView
+### BroadeningTheView
 
 > Empty
