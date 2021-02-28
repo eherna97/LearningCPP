@@ -1,5 +1,5 @@
 # Learning C++
-> The purpose of this repository is for me to log my progress and my journey as I learn C++. I 
+> The purpose of this repository is for me to log my progress and my journey learning C++. I 
 > will be using the textbook *Programming Principles and Practice Using C++* by Bjarne 
 > Stroustrup to learn C++ from scratch and to continue sharpening my understanding about 
 > programming. 
