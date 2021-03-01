@@ -1,18 +1,16 @@
 CC = clang++ -std=c++11
 CFLAGS = -Wall -Werror -Wpedantic -Wextra
 
-ofiles = hello.o
 
-all: hello
+BINARIES = hello squeeze
 
-hello: $(ofiles)
-	$(CC) -o hello $(ofiles)
+all: $(BINARIES)
 
-$(ofiles): %.o: %.cpp
-	$(CC) -c $(CFLAGS) $< -o $@
+hello: hello.cpp
+	$(CC) $(CFLAGS) -o $@ $@.cpp
 
-format:
-	clang-format -i -style=file *.cpp 
+squeeze: squeeze.cpp
+	$(CC) $(CFLAGS) -o $@ $@.cpp
 
 clean:
-	rm -rf hello *.o
+	rm -rf $(BINARIES) *.o

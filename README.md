@@ -28,7 +28,7 @@
 > this **README**, there will be a list of the **directories** and each of their **files**. 
 
 ## Building Programs:
-> Each **part directory** will have a **makefile** that you can use to make a certain program.
+> Each **directory** will have a **Makefile** that you can use to make a certain program.
 >
 > `$ make <name of the program, no .cpp>`
 
@@ -43,6 +43,7 @@
 
 > * **Makefile**
 > * **hello.c**
+> * **squeeze.c**
 
 ### InputAndOutput
 
